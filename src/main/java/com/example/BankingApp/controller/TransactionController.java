@@ -41,5 +41,4 @@ public class TransactionController {
     public ResponseEntity<Object> deleteTransaction(@PathVariable(value = "id") final long transactionId){
         return transactionService.deleteTransaction(transactionId);
     }
-
 }
